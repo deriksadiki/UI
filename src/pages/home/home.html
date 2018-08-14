@@ -1,17 +1,80 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
-</ion-header>
+    <ion-toolbar color="mine">
+      <ion-buttons start>
+        <button ion-button icon-only color="royal">
+            <ion-icon ios="ios-menu" md="md-menu"></ion-icon>
+        </button>
+      </ion-buttons>
+      <ion-title>DASHBOARD</ion-title>
+      <ion-buttons end>
+        <button ion-button icon-only color="royal">
+            <ion-icon name="search"></ion-icon>
+        </button>
+      </ion-buttons>
+    </ion-toolbar>
+    <div class="con" >
+      <div class="stuff">
+        <div class="outer-1">
+            <div class="inner-1">
+            </div>
+            <div class="inner-2">
+                <img src="../../assets/imgs/pic1.jpg">
+            </div>
+          </div>
+        </div>
+        <div class="text">
+<h5>Sarah George</h5>
+<p>policy ID: 25559825</p>
+</div>
+  </div>
+  </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<ion-content padding class="con2">
+<div class="items">
+    <ion-grid style="text-align: center">
+        <ion-row>
+          <ion-col >
+              <ion-card >
+                  <ion-icon ios="ios-paper" md="md-paper"  style="zoom:2.0; color:#8653AE;"></ion-icon>
+              </ion-card>
+              <p>Manage Policy</p>
+          </ion-col>
+          <ion-col >
+              <ion-card>
+                  <ion-icon ios="ios-calculator" md="md-calculator"  style="zoom:2.0; color:#8653AE;"></ion-icon>
+              </ion-card>
+              <p>EMI Calculator</p>
+          </ion-col>
+          <ion-col >
+              <ion-card >
+                  <ion-icon ios="ios-clipboard" md="md-clipboard" style="zoom:2.0; color:#8653AE;"></ion-icon>
+              </ion-card>
+              <p>Claim Policy</p>
+          </ion-col>
+        </ion-row>
+        <br>
+        <ion-row>
+            <ion-col >
+                <ion-card>
+                    <ion-icon ios="ios-repeat" md="md-repeat"  style="zoom:2.0; color:#8653AE;"></ion-icon>
+                </ion-card>
+                <p>Policy Transfer</p>
+            </ion-col>
+            <ion-col >
+                <ion-card (click)=" bills()">
+                    <ion-icon ios="ios-card" md="md-card"  style="zoom:2.0; color:#8653AE;"></ion-icon>
+                </ion-card>
+                <p>Insuarance Card</p>
+            </ion-col>
+            <ion-col >
+                <ion-card>
+                    <ion-icon ios="ios-locate" md="md-locate"  style="zoom:2.0; color:#8653AE;"></ion-icon>
+                </ion-card>
+                <p>Near Location</p>
+            </ion-col>
+          </ion-row>
+      </ion-grid>
+  
+</div>  
+   
 </ion-content>

@@ -1,3 +1,105 @@
 page-home {
 
+
+.con2{
+    background-image: url('../../assets/imgs/pic2.jpg');
+    height: 100%;
+}
+img{
+    height: 100px;
+    border-radius: 50px;
+    
+}
+.pic{
+    text-align: center;
+}
+.text{
+    color: white;
+    text-align: center; 
+}
+p{
+    font-size: 10px;
+}
+.outer-1 {
+
+    width:165px; /* You can define it by % also */
+    height:165px; /* You can define it by % also*/
+    position:relative;
+    border: 1px solid #815BA8;
+    border-radius: 50%;
+    background-color:  rgb(91, 84, 134);
+    margin: 0 auto;
+}
+.inner-1 {
+
+    top: 10%; left:10%; /* of the container */
+    width:80%; /* of the outer-1 */
+    height:80%; /* of the outer-1 */
+    position: absolute;
+    border: 1px solid  #8D68AE;
+    background-color: rgb(106, 100, 141);
+    border-radius: 50%;
+
+}
+.inner-2 {
+
+    top: 20%; left:20%; /* of the container */
+    width:60%; /* of the inner-1 */
+    height:59%; /* of the inner-1 */
+    position: absolute;
+    border-radius: 50%;
+}
+.stuff{
+    text-align: center;
+    margin:  0 auto;
+    align-content: center;
+
+}
+
+
+.items{
+    width: 105%;
+    height: 40.5%;
+    border-bottom-left-radius: 45px ;
+    border-bottom-right-radius: 45px ;  
+    margin-left: -8%;
+    position: fixed;
+    background-color: white;
+    z-index: 10;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+    .grid-full ion-col {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 5px 0;
+    }
+    .row {
+        padding: 0 12px;
+    }
+    .col {
+        padding: 4px 0;
+    }
+    .card {
+        margin: 0 8px;
+        width: calc(100% - 10px);
+        height: 70%;
+        padding: 14px;
+        box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 20%;
+        text-align: center
+        h1 {
+            font-weight: 400;
+            font-size: main-font-size;
+            font-size: 3.5rem;
+            text-align: center;
+        }
+        p {
+            font-weight: 100;
+            font-size: 1.5rem;
+        }
+    }
+    p{
+        text-align: center;
+    }
 }

@@ -1,0 +1,45 @@
+page-display {
+.cadrs{
+    height: 150px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 7px 7px 7px 7px;
+    background-color: rgb(190, 92, 102);
+    box-shadow: 0px 0px 13px #F75666;
+
+}
+.ok{
+    margin: 0 auto;
+    color: white;
+    position:relative;
+}
+.text{
+
+    color: white;
+    border: 0px solid #F75666;
+    height: 150px;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 9.5px;
+    font-family: "Times New Roman",  Helvetica;
+
+}
+ion-thumbnail{
+
+    margin-left: -7%;
+    height: 65px;
+    width: 25%;
+    text-align: center;
+    align-content: center;
+    padding-top: 10px;
+    background-color: rgb(238, 235, 235);
+}
+.ion-item{
+    padding: 0px;
+    height: 65px;
+}
+.con{
+    height: 33vh;
+   background-image: url('../../assets/imgs/pic2.jpg')
+}
+}
