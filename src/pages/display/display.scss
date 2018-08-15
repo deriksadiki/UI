@@ -1,8 +1,8 @@
 page-display {
 .cadrs{
     height: 150px;
-    width: 80%;
-    margin-left: 10%;
+    width: 300px;
+    margin: 0 auto;
     border-radius: 7px 7px 7px 7px;
     background-color: rgb(190, 92, 102);
     box-shadow: 0px 0px 13px #F75666;
@@ -39,7 +39,10 @@ ion-thumbnail{
     height: 65px;
 }
 .con{
-    height: 33vh;
-   background-image: url('../../assets/imgs/pic2.jpg')
+    height: 30vh;
+   background-image: url('../../assets/imgs/pic2.jpg');
+}
+.conentes{
+    height: 100%;
 }
 }

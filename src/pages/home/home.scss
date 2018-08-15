@@ -4,6 +4,7 @@ page-home {
 .con2{
     background-image: url('../../assets/imgs/pic2.jpg');
     height: 100%;
+   
 }
 img{
     height: 100px;
@@ -57,18 +58,21 @@ p{
 }
 
 
-.items{
-    width: 105%;
-    height: 40.5%;
-    border-bottom-left-radius: 45px ;
-    border-bottom-right-radius: 45px ;  
-    margin-left: -8%;
-    position: fixed;
+.items2{
+    margin: 0;
+    position: relative;
     background-color: white;
-    z-index: 10;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    border-bottom-left-radius: 70px ;
+    border-bottom-right-radius: 70px ;
+    padding: 5% 0;
+    min-height: 250px;
 }
+.contentAlignment{
+    border: 2px solid red;
+    align-content: center;
 
+}
     .grid-full ion-col {
         flex: 0 0 50%;
         max-width: 50%;
