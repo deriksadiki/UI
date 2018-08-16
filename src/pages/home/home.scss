@@ -4,6 +4,7 @@ page-home {
 .con2{
     background-image: url('../../assets/imgs/pic2.jpg');
     height: 100%;
+
    
 }
 img{
@@ -67,9 +68,18 @@ p{
     border-bottom-right-radius: 70px ;
     padding: 5% 0;
     min-height: 250px;
-}
-.contentAlignment{
+    text-align: center;
     align-content: center;
+    display: flex ;
+    align-items: center;
+ 
+}
+.contentAlignment {
+    align-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+  
 
 }
     .grid-full ion-col {
